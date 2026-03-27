@@ -23,8 +23,8 @@ const projects = [
     githubUrl: "https://github.com/frknaydn3512/ESGate-WebAPI-MVC-Project",
     liveUrl: "#",
     images: [
-      "src/assets/esgate1.jpeg",
-      "src/assets/esgate2.jpeg"
+      "assets/esgate1.jpeg",
+      "assets/esgate2.jpeg"
     ]
   },
   {
@@ -71,7 +71,7 @@ const projects = [
     githubUrl: "#", // Buraya bu sitenin GitHub repo linkini koyarsın
     liveUrl: "#",
     images: [
-      "src/assets/me.png"  
+      "assets/me.png"  
     ]
   },
   {
@@ -362,7 +362,7 @@ function App() {
                   required
                   value={formData.name}
                   onChange={(e) => setFormData({...formData, name: e.target.value})}
-                  placeholder="Furkan Yıldız" 
+                  placeholder="Livanur Deli" 
                   className="w-full px-5 py-4 rounded-xl bg-slate-900 border border-slate-700 text-white focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition outline-none" 
                 />
               </div>
