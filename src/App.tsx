@@ -1,5 +1,5 @@
 import { useRef, useState, useEffect } from 'react';
-import { Mail, ChevronDown, ExternalLink, Code2, MessageSquare, Send, Menu } from 'lucide-react';
+import { ExternalLink, Code2, Send, Menu } from 'lucide-react';
 import profilPhoto from './assets/profil.jpg';
 
 // Ana ikonlar, Diller ve Frontend
