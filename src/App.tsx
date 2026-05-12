@@ -10,7 +10,7 @@ import { TbBrandCSharp, TbBrandTailwind, TbBrandTypescript, TbBrandVite } from '
 import { DiPostgresql, DiDotnet } from 'react-icons/di';
 
 // Veritabanları ve Araçlar
-import { SiFirebase, SiSupabase, SiVercel, SiNetlify, SiSqlite, SiPostman, SiSwagger } from 'react-icons/si';
+import { SiFirebase, SiSupabase, SiVercel, SiNetlify, SiSqlite, SiPostman, SiSwagger, SiNextdotjs, SiMeta } from 'react-icons/si';
 
 // --- VERİLER ---
 
@@ -71,6 +71,38 @@ const projects = [
     githubUrl: "https://github.com/frknaydn3512/Ai_Resume_Analyzer",
     liveUrl: "#",
     images: []
+  },
+  {
+    title: "AdReport SaaS (Meta Ads Raporlama)",
+    description: "Ajansların kendi marka kimlikleriyle müşterilerine otomatik aylık Meta Ads raporları gönderebildiği white-label SaaS platformu. JWT auth, QuestPDF ile PDF üretimi, Hangfire ile zamanlanmış işler ve Docker ile containerization.",
+    techIcons: [DiDotnet, FaReact, DiPostgresql, FaDocker, SiMeta],
+    githubUrl: "https://github.com/frknaydn3512/meta",
+    liveUrl: "#",
+    images: []
+  },
+  {
+    title: "JobAnalyzer: AI Kariyer Platformu",
+    description: "Türkiye yazılım iş piyasasını 19 farklı kaynaktan gerçek zamanlı izleyen, AI destekli kariyer analizi platformu. 12.450+ ilan indeksleme, Groq LLaMA-3.3 ile PDF CV analizi, otomatik önyazı üretimi ve maaş benchmark raporları.",
+    techIcons: [DiDotnet, TbBrandCSharp, DiPostgresql, FaPython],
+    githubUrl: "https://github.com/frknaydn3512/JobAnalyzer",
+    liveUrl: "#",
+    images: []
+  },
+  {
+    title: "PingBot: Uptime & Status Pages",
+    description: "Sunucular için ücretsiz uptime monitoring ve halka açık durum sayfaları sunan SaaS uygulaması. Supabase magic link & Google OAuth, HTTP/TCP probe'lar, otomatik incident yönetimi ve ISR ile 60sn güncellenen public status sayfaları.",
+    techIcons: [SiNextdotjs, TbBrandTypescript, SiSupabase, TbBrandTailwind],
+    githubUrl: "https://github.com/frknaydn3512/status-page",
+    liveUrl: "#",
+    images: []
+  },
+  {
+    title: "Cari Hesap Yönetim Sistemi (Freelance)",
+    description: "Bir müşterim için freelance olarak geliştirdiğim, production'da aktif kullanılan detaylı cari hesap takip programı. .NET Core 8 Web API backend ve React frontend, PostgreSQL veritabanı ile; tüm servisler Docker'a alınıp VPS üzerinde deploy edildi. Müşteri gizliliği nedeniyle kaynak kodu kapalıdır.",
+    techIcons: [DiDotnet, FaReact, DiPostgresql, FaDocker],
+    githubUrl: "#",
+    liveUrl: "#",
+    images: ["assets/cari1.jpeg"]
   },
   {
     title: "AI Kişisel Asistan (Telegram Bot)",
