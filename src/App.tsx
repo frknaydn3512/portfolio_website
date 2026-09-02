@@ -256,10 +256,10 @@ function App() {
           <h1 className="text-5xl sm:text-7xl font-bold text-white mb-6">
             Merhaba, Ben <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400">Furkan</span>
           </h1>
-          <p className="text-lg sm:text-xl text-slate-400 mb-10 max-w-2xl mx-auto">
-            Bilişim Sistemleri Mühendisliği 3. Sınıf Öğrencisiyim ve kariyerimi Backend Development üzerine şekillendiriyorum.
-
-            Özellikle <span className="text-slate-200 font-medium">ASP.NET Core MVC</span> ve <span className="text-slate-200 font-medium">Web API</span> ekosisteminde ölçeklenebilir, kurumsal mimariye uygun web çözümleri üretmekten keyif alıyorum. Java (OOP) temellerine sahibim ve Yapay Zeka (Python) alanında da kendimi geliştirmeye devam ediyorum. Kariyer odağım .NET teknolojileri olsa da, Python ile veri odaklı servisler ve bot geliştirmede yetkinliğim bulunuyor.
+          <p className="text-lg sm:text-xl text-slate-400 mb-10 max-w-2xl mx-auto leading-relaxed">
+            <span className="text-slate-200 font-medium">ASP.NET Core</span> ve <span className="text-slate-200 font-medium">React / TypeScript</span> ile kurumsal web uygulamaları geliştiren bir <span className="text-slate-200 font-medium">Bilişim Sistemleri Mühendisliği 4. Sınıf</span> öğrencisiyim.
+            <br /><br />
+            Staj ve freelance projelerimde uçtan uca (backend, frontend, veritabanı) çözümler ürettim. Bunun yanında yapay zeka alanında kendimi geliştirmeye devam ediyor ve yeni teknolojilere hızlı adapte oluyorum.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a href="#projects" className="px-8 py-3 rounded-full bg-emerald-500 hover:bg-emerald-600 text-white font-medium shadow-lg shadow-emerald-500/20">Projelerimi İncele</a>
